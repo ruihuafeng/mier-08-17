@@ -5,6 +5,7 @@
  */
 package primer.ejercicio.de.lenguaje.structura.pkg5.pkg9.pkg17;
 
+import java.text.DecimalFormat;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -140,4 +141,20 @@ adv= leer.nextInt();
  }
  System.out.println("Advinaste ");
  }
+  public void deuda (){
+ double credito= 6000;
+ double  inte=0.15;
+ int resu=0;
+ int suma=0;
+ while (credito<=55000){
+ // operacion 
+ credito = credito +(credito * inte);
+ // el variable para saber cuantos meses son 
+ suma++;
+ // para quitar los decias de ceros 
+ DecimalFormat df = new DecimalFormat("#.00"); 
+ System.out.println("Mes "+suma+":"+df.format(credito));
+ }
+  
+  }
 }
