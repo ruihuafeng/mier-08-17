@@ -48,6 +48,10 @@ public class PrimerEjercicioDeLenguajeStructura5917 {
                   ent.pira(); 
                   break;   
           }
+          case 5:{
+                  ent.ju();
+                  break;   
+          }
         // TODO code application logic here
     }
   }

@@ -120,4 +120,24 @@ System.out.println("Ya terminaste los 5 Veces de intentos tienes que inicial de 
  }
  
  }
+  public void ju(){
+Scanner leer = new Scanner (System.in);
+Random ent = new Random ();
+ int num;
+ int adv=0;
+ num = ent.nextInt(100)+1; 
+ System.out.println("Ingresa el 1er  numero para empesar el juego ");
+ adv=leer.nextInt();
+ while (num != adv){
+
+ if (adv<num)
+ {  
+ System.out.println("Ingresa un mumero mayor ");
+ }else {
+ System.out.println("Ingresa un mumero menor ");
+ }
+adv= leer.nextInt(); 
+ }
+ System.out.println("Advinaste ");
+ }
 }
