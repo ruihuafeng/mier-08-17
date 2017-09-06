@@ -81,8 +81,8 @@ System.out.println("EL suma Acumulada Total es :"+total);
 total= multi;
 System.out.println("El resultado de la multiplicacion sera:"+total);
  } */
- Random ent = new Random(); 
- int contador=0,maxinten=5,m1,m2,mayor=0;
+Random ent = new Random(); 
+int contador=0,maxinten=5,m1,m2,mayor=0;
 m1 = ent.nextInt(5)+1;
 m2 = ent.nextInt(5)+1;
 int res;
